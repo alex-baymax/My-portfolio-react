@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../assets/logo.png";
-import { FaTimes, FaGithub, FaLinkedin, FaBehance } from "react-icons/fa";
+import { FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsGridFill } from "react-icons/bs";
 import { HiArrowSmUp, HiMail } from "react-icons/hi";
 import { Link } from "react-scroll";
@@ -136,7 +136,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-200 rounded-e-2xl font-semibold">
             <a
-              href="https://www.linkedin.com/in/laith-mahdi-06458523a/"
+              href="https://www.linkedin.com/in/vsevolod-khokhlov-924565335/"
               className="flex justify-between items-center w-full text-[#3A1078]"
             >
               Linkedin <FaLinkedin size={30} />
@@ -145,7 +145,7 @@ const Navbar = () => {
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-200 rounded-e-2xl font-semibold">
             <a
-              href="https://github.com/LaithMahdi"
+              href="https://github.com/alex-baymax"
               className="flex justify-between items-center w-full text-[#3A1078]"
             >
               Github <FaGithub size={30} />
@@ -154,16 +154,7 @@ const Navbar = () => {
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-200 rounded-e-2xl font-semibold">
             <a
-              href="https://www.behance.net/Laith-Mahdi"
-              className="flex justify-between items-center w-full text-[#3A1078]"
-            >
-              Behance <FaBehance size={30} />
-            </a>
-          </li>
-
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-200 rounded-e-2xl font-semibold">
-            <a
-              href="mailto:mahdilaith380@gmail.com" 
+              href="alexhohlov1970@gmail.com" 
               className="flex justify-between items-center w-full text-[#3A1078]"
             >
               Email <HiMail size={30} />

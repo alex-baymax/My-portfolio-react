@@ -1,19 +1,15 @@
 import html from "../assets/langues/HTML.png";
 import angular from "../assets/langues/angular.png";
-import reactLangue from "../assets/langues/react.png";
+import react from "../assets/langues/react.png";
 import django from "../assets/langues/django.png";
-import symfony from "../assets/langues/symfony.png";
+import nodejs from "../assets/langues/nodejs.svg";
+import mongodb from "../assets/langues/mongodb.svg";
 import css from "../assets/langues/css.png";
 import github from "../assets/langues/github.png";
 import tailwind from "../assets/langues/tailwind.png";
 import js from "../assets/langues/js.png";
-import spring from "../assets/langues/spring.png";
-import flutter from "../assets/langues/flutter.png";
 import bootstrap from "../assets/langues/bootstrap.png";
-import c from "../assets/langues/c.png";
-import py from "../assets/langues/py.png";
-import php from "../assets/langues/php.png";
-import java from "../assets/langues/java.png";
+import portfolio from "../assets/portfolio.png";
 
 // Array of work objects
 export const works = [
@@ -21,9 +17,9 @@ export const works = [
     title: "Furniture e-commerce App",
     imgUrl:
       "https://cdn.dribbble.com/users/6870886/screenshots/20051488/media/f16e46c91563fd48d6b80c37b48ac6df.png?compress=1&resize=1000x750&vertical=top",
-    tech: ["Flutter", "Figma", "Material UI"],
+    tech: ["NodeJS", "React", "Material UI"],
     workUrl:
-      "https://www.behance.net/gallery/158475619/Furniture-Shopping-App-Design",
+      "",
     duration: "400",
   },
 
@@ -33,15 +29,14 @@ export const works = [
       "https://cdn.dribbble.com/users/6870886/screenshots/19725277/media/51d626308c85e403aa3e3ab67ba22022.png?compress=1&resize=400x300&vertical=top",
     tech: ["HTML", "CSS", "Bootstrap 5"],
     workUrl:
-      "https://www.behance.net/gallery/155476041/UI-Design-Photography-Portfolio-Website",
+      "",
     duration: "500",
   },
   {
     title: "Portfolio Maker",
-    imgUrl:
-      "https://cdn.dribbble.com/users/6870886/screenshots/20208089/portfilio1_cover.jpg",
+    imgUrl: portfolio,
     tech: ["Django", "CSS", "Boottsrap 5", "Jquery"],
-    workUrl: "https://github.com/LaithMahdi/portfolio_maker",
+    workUrl: "",
     duration: "600",
   },
   {
@@ -50,7 +45,7 @@ export const works = [
       "https://cdn.dribbble.com/users/6870886/screenshots/19057557/cover_dribbble.png",
     tech: ["Flutter", "Figma", "Material UI"],
     workUrl:
-      "https://www.behance.net/gallery/150189805/MAKLTI-Food-Delivery-App",
+      "",
     duration: "700",
   },
 ];
@@ -58,25 +53,50 @@ export const works = [
 // Array of experience objects
 export const experiences = [
   {
-    date: "January 2023 - February 2023",
-    company: "AfterCode",
-    position: "Flutter Developer",
-    description:
-      "I successfully developed a mobile application for managing a healthcare facility, catering to both the administrative staff and patients. This involved conducting a thorough study, designing intuitive interfaces, and seamlessly integrating the Backend system.",
+    date: "May 2023 - Nov 2024",
+    company: "Self employed",
+    position: "Full-Stack Developer",
+    description: 
+      <p>
+      - Developed and maintained complex web applications using React, Node.js, and MongoDB, enhancing platform performance by 8%.
+      <br />
+      - Integrated cloud-based solutions and CI/CD pipelines, reducing deployment times by 13%.
+      <br />
+      - Mentored junior developers and led a team of 8 engineers to complete projects on schedule with a 97% client satisfaction rate. 
+      <br />
+      - Spearheaded the implementation of cybersecurity measures, safeguarding client data from potential threats.
+      </p>
   },
   {
-    date: "January 2022 - February 2022",
-    company: "AfterCode",
-    position: "Internship",
+    date: "January 20 - February 2022",
+    company: "Self employed",
+    position: "Web application Developer",
     description:
-      "I have expertise in creating visually captivating and user-friendly websites for restaurants. Additionally, I possess skills in managing automated tests to ensure optimal functionality and performance.",
+      <p>
+        - Built dynamic, user-friendly web applications using Vue.js, Python (Django), increasing user retention by 8%.
+        <br />
+        - Designed and implemented RESTful APIs to integrate third-party services and enhance functionality.
+        <br />
+        - Conducted usability testing and optimized UI/UX design for enterprise applications.
+        <br />
+        - Supported and maintained legacy systems while transitioning clients to modern tech stacks.
+        <br />
+      </p>,
   },
   {
     date: "January 2020 - Present",
-    company: "Self employed",
-    position: "Freelancer",
+    company: "Ukrposhta",
+    position: "Full Stack Developer",
     description:
-      "I specialize in designing user interfaces for websites and mobile applications. I also create logos, posters, and mockups. My designs are visually appealing, intuitive, and tailored to engage target audiences. With a deep understanding of design principles and industry trends, I consistently deliver high-quality work that captivates users.",
+      <p>
+        - Created end-to-end solutions using Apollo and React, improving system scalability and performance.
+        <br />
+        - Designed and implemented efficient data models to manage large-scale datasets.
+        <br />
+        - Participated in code reviews and contributed to the standardization of coding practices.
+        <br />
+        - Collaborated with DevOps teams to deploy applications in AWS environments, achieving 99.9% uptime.
+      </p>,
   },
 ];
 
@@ -103,7 +123,7 @@ export const langues = [
   },
   {
     id: 4,
-    src: reactLangue,
+    src: react,
     title: "React",
     style: "shadow-sky-500",
   },
@@ -133,14 +153,14 @@ export const langues = [
   },
   {
     id: 9,
-    src: symfony,
-    title: "Symfony",
-    style: "shadow-black",
+    src: nodejs,
+    title: "NodeJS",
+    style: "shadow-green-300",
   },
   {
     id: 10,
-    src: spring,
-    title: "Spring boot",
+    src: mongodb,
+    title: "MongoDB",
     style: "shadow-green-600",
   },
   {
@@ -148,36 +168,5 @@ export const langues = [
     src: bootstrap,
     title: "Bootstrap",
     style: "shadow-violet-500",
-  },
-  {
-    id: 12,
-    src: flutter,
-    title: "Flutter",
-    style: "shadow-cyan-400",
-  },
-  {
-    id: 13,
-    src: py,
-    title: "Python",
-    style: "shadow-yellow-400",
-  },
-
-  {
-    id: 14,
-    src: php,
-    title: "Php",
-    style: "shadow-violet-400",
-  },
-  {
-    id: 15,
-    src: c,
-    title: "C",
-    style: "shadow-blue-400",
-  },
-  {
-    id: 16,
-    src: java,
-    title: "Java",
-    style: "shadow-orange-500",
-  },
+  }
 ];
