@@ -81,7 +81,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="z-10 md:hidden">
         {!nav ? <BsGridFill /> : <FaTimes />}
       </div>
 
@@ -96,7 +96,7 @@ const Navbar = () => {
           <img src={Logo} alt="logo" style={{ width: "45px" }} className="mb-7" />
         </div>
         <ul
-          className='w-full  flex flex-col justify-center items-center'
+          className='flex flex-col items-center justify-center w-full'
         >
           {/* Added comments for each mobile menu item */}
           <li className="py-6 text-4xl hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
