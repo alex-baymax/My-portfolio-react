@@ -62,8 +62,6 @@ export const experiences = [
       <br />
       - Integrated cloud-based solutions and CI/CD pipelines, reducing deployment times by 13%.
       <br />
-      - Mentored junior developers and led a team of 8 engineers to complete projects on schedule with a 97% client satisfaction rate. 
-      <br />
       - Spearheaded the implementation of cybersecurity measures, safeguarding client data from potential threats.
       </p>
   },
@@ -73,7 +71,7 @@ export const experiences = [
     position: "Web application Developer",
     description:
       <p>
-        - Built dynamic, user-friendly web applications using Vue.js, Python (Django), increasing user retention by 8%.
+        - Built dynamic, user-friendly web applications using Vue, Nuxt, increasing user retention by 8%.
         <br />
         - Designed and implemented RESTful APIs to integrate third-party services and enhance functionality.
         <br />
